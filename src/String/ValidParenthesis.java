@@ -16,7 +16,8 @@ public class ValidParenthesis {
                 (str.charAt(i)==']'&&peek!='[')) return false;
             }
         }
+        System.out.println("NEW ");
         return stack.isEmpty();
     }
 }
-//siddhnar
+
